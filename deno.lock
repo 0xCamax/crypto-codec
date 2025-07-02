@@ -1,0 +1,229 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.13",
+    "jsr:@std/internal@^1.0.6": "1.0.6",
+    "npm:@ethereumjs/rlp@10": "10.0.0",
+    "npm:@noble/hashes@^1.8.0": "1.8.0",
+    "npm:@noble/secp256k1@^2.3.0": "2.3.0",
+    "npm:@types/node@*": "22.15.15",
+    "npm:ethereum-cryptography@^3.2.0": "3.2.0",
+    "npm:n@*": "10.2.0",
+    "npm:no@*": "0.0.1",
+    "npm:nod@*": "0.2.0",
+    "npm:node-forge@^1.3.1": "1.3.1",
+    "npm:node@*": "24.2.0",
+    "npm:viem@*": "2.31.0_ws@8.18.2"
+  },
+  "jsr": {
+    "@std/assert@1.0.13": {
+      "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.6": {
+      "integrity": "9533b128f230f73bd209408bb07a4b12f8d4255ab2a4d22a1fd6d87304aca9a4"
+    }
+  },
+  "npm": {
+    "@adraffy/ens-normalize@1.11.0": {
+      "integrity": "sha512-/3DDPKHqqIqxUULp8yP4zODUY1i+2xvVWsv8A79xGWdCAG+8sb0hRh0Rk2QyOJUnnbyPUAZYcpBuRe3nS2OIUg=="
+    },
+    "@ethereumjs/rlp@10.0.0": {
+      "integrity": "sha512-h2SK6RxFBfN5ZGykbw8LTNNLckSXZeuUZ6xqnmtF22CzZbHflFMcIOyfVGdvyCVQqIoSbGMHtvyxMCWnOyB9RA==",
+      "bin": true
+    },
+    "@noble/ciphers@1.3.0": {
+      "integrity": "sha512-2I0gnIVPtfnMw9ee9h1dJG7tp81+8Ob3OJb3Mv37rx5L40/b0i7djjCVvGOVqc9AEIQyvyu1i6ypKdFw8R8gQw=="
+    },
+    "@noble/curves@1.9.0": {
+      "integrity": "sha512-7YDlXiNMdO1YZeH6t/kvopHHbIZzlxrCV9WLqCY6QhcXOoXiNCMDqJIglZ9Yjx5+w7Dz30TITFrlTjnRg7sKEg==",
+      "dependencies": [
+        "@noble/hashes"
+      ]
+    },
+    "@noble/curves@1.9.1": {
+      "integrity": "sha512-k11yZxZg+t+gWvBbIswW0yoJlu8cHOC7dhunwOzoWH/mXGBiYyR4YY6hAEK/3EUs4UpB8la1RfdRpeGsFHkWsA==",
+      "dependencies": [
+        "@noble/hashes"
+      ]
+    },
+    "@noble/hashes@1.8.0": {
+      "integrity": "sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A=="
+    },
+    "@noble/secp256k1@2.3.0": {
+      "integrity": "sha512-0TQed2gcBbIrh7Ccyw+y/uZQvbJwm7Ao4scBUxqpBCcsOlZG0O4KGfjtNAy/li4W8n1xt3dxrwJ0beZ2h2G6Kw=="
+    },
+    "@scure/base@1.2.6": {
+      "integrity": "sha512-g/nm5FgUa//MCj1gV09zTJTaM6KBAHqLN907YVQqf7zC49+DcO4B1so4ZX07Ef10Twr6nuqYEH9GEggFXA4Fmg=="
+    },
+    "@scure/bip32@1.7.0": {
+      "integrity": "sha512-E4FFX/N3f4B80AKWp5dP6ow+flD1LQZo/w8UnLGYZO674jS6YnYeepycOOksv+vLPSpgN35wgKgy+ybfTb2SMw==",
+      "dependencies": [
+        "@noble/curves@1.9.0",
+        "@noble/hashes",
+        "@scure/base"
+      ]
+    },
+    "@scure/bip39@1.6.0": {
+      "integrity": "sha512-+lF0BbLiJNwVlev4eKelw1WWLaiKXw7sSl8T6FvBlWkdX+94aGJ4o8XjUdlyhTCjd8c+B3KT3JfS8P0bLRNU6A==",
+      "dependencies": [
+        "@noble/hashes",
+        "@scure/base"
+      ]
+    },
+    "@types/node@22.15.15": {
+      "integrity": "sha512-R5muMcZob3/Jjchn5LcO8jdKwSCbzqmPB6ruBxMcf9kbxtniZHP327s6C37iOfuw8mbKK3cAQa7sEl7afLrQ8A==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "abitype@1.0.8": {
+      "integrity": "sha512-ZeiI6h3GnW06uYDLx0etQtX/p8E24UaHHBj57RSjK7YBFe7iuVn07EDpOeP451D06sF27VOz9JJPlIKJmXgkEg=="
+    },
+    "coffee-script@1.12.7": {
+      "integrity": "sha512-fLeEhqwymYat/MpTPUjSKHVYYl0ec2mOyALEMLmzr5i1isuG+6jfI2j2d5oBO3VIzgUXgBVIcOT9uH1TFxBckw==",
+      "deprecated": true,
+      "bin": true
+    },
+    "ethereum-cryptography@3.2.0": {
+      "integrity": "sha512-Urr5YVsalH+Jo0sYkTkv1MyI9bLYZwW8BENZCeE1QYaTHETEYx0Nv/SVsWkSqpYrzweg6d8KMY1wTjH/1m/BIg==",
+      "dependencies": [
+        "@noble/ciphers",
+        "@noble/curves@1.9.0",
+        "@noble/hashes",
+        "@scure/bip32",
+        "@scure/bip39"
+      ]
+    },
+    "eventemitter3@5.0.1": {
+      "integrity": "sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA=="
+    },
+    "isows@1.0.7_ws@8.18.2": {
+      "integrity": "sha512-I1fSfDCZL5P0v33sVqeTDSpcstAg/N+wF5HS033mogOVIp4B+oHC7oOCsA3axAbBSGTJ8QubbNmnIRN/h8U7hg==",
+      "dependencies": [
+        "ws"
+      ]
+    },
+    "n@10.2.0": {
+      "integrity": "sha512-zlLXwSEMQgAHmsXtcZwNuA2W5rLdAJyg51DI47ubDWE0Bss0ji9sbK3eD6vM7kKgRLTFm/i4+FvE4SXvphaSHg==",
+      "os": ["!win32"],
+      "bin": true
+    },
+    "no@0.0.1": {
+      "integrity": "sha512-9fDwk9njTDe89ip96JobYnmtWOGv+EkvyP2ErzxuLPr4WG6fGjl9BWGOj09Bc7sP26p4zvemhWRNdp65T0eX+g==",
+      "dependencies": [
+        "coffee-script"
+      ]
+    },
+    "nod@0.2.0": {
+      "integrity": "sha512-FfpAvMud1eHTPE6t1iRthpPNO05HVm5u5OT3/CXcMiEeyVX7EhV6KTG7S6fAzq9SgdBvcBpM+7kZyYM3WyN6Cg==",
+      "dependencies": [
+        "underscore"
+      ]
+    },
+    "node-bin-setup@1.1.4": {
+      "integrity": "sha512-vWNHOne0ZUavArqPP5LJta50+S8R261Fr5SvGul37HbEDcowvLjwdvd0ZeSr0r2lTSrPxl6okq9QUw8BFGiAxA=="
+    },
+    "node-forge@1.3.1": {
+      "integrity": "sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA=="
+    },
+    "node@24.2.0": {
+      "integrity": "sha512-+LxcguHN48uLeFUdC8w9SGbJhuOklUrCgl0K3dmqhXdokzwd83HKXUbeA8JLd41G+77W9Ovq7FXGCij74Ff/tw==",
+      "dependencies": [
+        "node-bin-setup"
+      ],
+      "scripts": true,
+      "bin": true
+    },
+    "ox@0.7.1": {
+      "integrity": "sha512-+k9fY9PRNuAMHRFIUbiK9Nt5seYHHzSQs9Bj+iMETcGtlpS7SmBzcGSVUQO3+nqGLEiNK4598pHNFlVRaZbRsg==",
+      "dependencies": [
+        "@adraffy/ens-normalize",
+        "@noble/ciphers",
+        "@noble/curves@1.9.1",
+        "@noble/hashes",
+        "@scure/bip32",
+        "@scure/bip39",
+        "abitype",
+        "eventemitter3"
+      ]
+    },
+    "underscore@1.4.4": {
+      "integrity": "sha512-ZqGrAgaqqZM7LGRzNjLnw5elevWb5M8LEoDMadxIW3OWbcv72wMMgKdwOKpd5Fqxe8choLD8HN3iSj3TUh/giQ=="
+    },
+    "undici-types@6.21.0": {
+      "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="
+    },
+    "viem@2.31.0_ws@8.18.2": {
+      "integrity": "sha512-U7OMQ6yqK+bRbEIarf2vqxL7unSEQvNxvML/1zG7suAmKuJmipqdVTVJGKBCJiYsm/EremyO2FS4dHIPpGv+eA==",
+      "dependencies": [
+        "@noble/curves@1.9.1",
+        "@noble/hashes",
+        "@scure/bip32",
+        "@scure/bip39",
+        "abitype",
+        "isows",
+        "ox",
+        "ws"
+      ]
+    },
+    "ws@8.18.2": {
+      "integrity": "sha512-DMricUmwGZUVr++AEAe2uiVM7UoO9MAVZMDu05UQOaUII0lp+zOzLLU4Xqh/JvTqklB1T4uELaaPBKyjE1r4fQ=="
+    }
+  },
+  "redirects": {
+    "https://esm.sh/@ethereumjs/rlp": "https://esm.sh/@ethereumjs/rlp@10.0.0",
+    "https://esm.sh/@noble/hashes/hmac": "https://esm.sh/@noble/hashes@1.8.0/hmac",
+    "https://esm.sh/@noble/hashes/sha256": "https://esm.sh/@noble/hashes@1.8.0/sha256",
+    "https://esm.sh/@noble/hashes/sha3": "https://esm.sh/@noble/hashes@1.8.0/sha3",
+    "https://esm.sh/@noble/secp256k1": "https://esm.sh/@noble/secp256k1@2.3.0",
+    "https://esm.sh/@types/node-forge@~1.3.11/index.d.ts": "https://esm.sh/@types/node-forge@1.3.11/index.d.ts",
+    "https://esm.sh/ethereum-cryptography/keccak": "https://esm.sh/ethereum-cryptography@3.2.0/keccak",
+    "https://esm.sh/ethereum-cryptography/utils": "https://esm.sh/ethereum-cryptography@3.2.0/utils",
+    "https://esm.sh/v135/@types/node-forge@~1.3/index.d.ts": "https://esm.sh/v135/@types/node-forge@1.3.11/index.d.ts"
+  },
+  "remote": {
+    "https://esm.sh/@ethereumjs/rlp@10.0.0": "8273b0eb3ed0600af5a4e1753f685c81eea6cd9f46792a78ce42dd1afa6a1d54",
+    "https://esm.sh/@ethereumjs/rlp@10.0.0/denonext/rlp.mjs": "d5fc75fc7880a97ad22d7619b552520b67237b4875a7cc7ed6afdce4c3eb55fc",
+    "https://esm.sh/@noble/curves@1.9.0/denonext/abstract/utils.mjs": "824cbbc9e5ab6697e535287bed18636dc644ea0f15b957f6c0a3cefb2bbb8843",
+    "https://esm.sh/@noble/hashes@1.8.0/denonext/_assert.mjs": "4d4f4ec57ea3a2e61884418d45a195316125b798cb3c481a68d2b8bbc399188e",
+    "https://esm.sh/@noble/hashes@1.8.0/denonext/_md.mjs": "e30debbd8e964d8bd4ae9c807c75601e3ef7ec73eaed005f703709f64a4b2257",
+    "https://esm.sh/@noble/hashes@1.8.0/denonext/crypto.mjs": "cabc4468470c6f6d15891c4a6037aebed19289e1a12eb9905c5579c26767a721",
+    "https://esm.sh/@noble/hashes@1.8.0/denonext/hmac.mjs": "f6e5f679509f87084ebfc0e0334a8ce28788cf94868a61807420618dfc392325",
+    "https://esm.sh/@noble/hashes@1.8.0/denonext/sha2.mjs": "1bf8c30d97f7fe1546e2fed6777a0da85e78d6e961eeae0e0b4437dabf016b7a",
+    "https://esm.sh/@noble/hashes@1.8.0/denonext/sha256.mjs": "43f16ee7a29cabde4a66d24226da441240f587dc34c568661a1b3f392fda177a",
+    "https://esm.sh/@noble/hashes@1.8.0/denonext/sha3.mjs": "026506a4a95d1c7d8088c285de5723914e70e9d1fdda4bc7749108b9278d368c",
+    "https://esm.sh/@noble/hashes@1.8.0/denonext/utils.mjs": "18b15a49e98c9e136e4bfcdce69b9461630b7dc3389ba932f535ad4a47221b08",
+    "https://esm.sh/@noble/hashes@1.8.0/hmac": "5c9d655d107588eed7301bb7b5e9a8aca303e3e52af88cd323f0564d994f685c",
+    "https://esm.sh/@noble/hashes@1.8.0/sha256": "1804d21efec0beea92617d60ab84cd45d16d58bc709830df4da1be95a8fc69fc",
+    "https://esm.sh/@noble/hashes@1.8.0/sha3": "a4c07bd12121b1b3ecc9fd54e2edd26cdf266093b85b29af199c014a7374ba15",
+    "https://esm.sh/@noble/secp256k1@2.3.0": "bcb6d4d94ae6f4c6e3ddbc2b0610384568cc675a28312b0a41e8f15c7f0e4ca6",
+    "https://esm.sh/@noble/secp256k1@2.3.0/denonext/secp256k1.mjs": "9757ed62148edb7de0cb7f4c740085ac181bdacfe01dd4196cdc11407feff9c8",
+    "https://esm.sh/ethereum-cryptography@3.2.0/denonext/keccak.mjs": "3fedc82df723f2548a14c125124e2f13d952638a026a44a2bf59fc643761e4b5",
+    "https://esm.sh/ethereum-cryptography@3.2.0/denonext/utils.mjs": "567f56eb9a0c89ee39796b761a80bba5dff8a99bf475692a087a1ece04f9df8e",
+    "https://esm.sh/ethereum-cryptography@3.2.0/keccak": "a02c6861a91fa102b8869878a45f30e6eb929d3f8fc3d28b20437140d9711702",
+    "https://esm.sh/ethereum-cryptography@3.2.0/utils": "57ff60b2bbc94c6b3666d1473aae61273354ae2787b9289ef24dc080b166a45d",
+    "https://esm.sh/node-forge@1.3.1": "39fbff1dd3f1f45bf7019492f7c7e941fcf91887cebbbd86c439100d06c6e348",
+    "https://esm.sh/node-forge@1.3.1/": "39fbff1dd3f1f45bf7019492f7c7e941fcf91887cebbbd86c439100d06c6e348",
+    "https://esm.sh/node-forge@1.3.1/denonext/node-forge.mjs": "52285867c50dcf6577763a0d06899dde0eb5d0f60f5c331d1ce0ca9430f3a193",
+    "https://esm.sh/v135/base64-js@1.5.1/esnext/base64-js.mjs": "349361f227d34ff80b673a7741ea0b509dbb6c9c89d650b86a0b55705e25c8dc",
+    "https://esm.sh/v135/buffer@6.0.3/esnext/buffer.mjs": "f6de86b04b58a64f82d591b05fff1626ed7c8f4a9c7726c274c96abef31326c3",
+    "https://esm.sh/v135/ieee754@1.2.1/esnext/ieee754.mjs": "697af7a0508eafc364c7ff778310afdc7e7d7187c15f5f3a3295b541785af5b4",
+    "https://esm.sh/v135/node-forge@1.3.1": "b77f727a828a30f934dcf07f0a3fff9fff30c4ba624da3dc5f51d4589a8536ea",
+    "https://esm.sh/v135/node-forge@1.3.1/esnext/node-forge.mjs": "51229fa8d19f9d47d654e751a3561ab2a91dae73ff49d9e7c86278f3c7004d0c",
+    "https://esm.sh/v135/node_events.js": "b1b65598db01a0621f65bf86948381344943c6b53828c470be4caa678d5fcfd5",
+    "https://esm.sh/v135/node_process.js": "13a1bd2438678b509dd68a0006c11c50c77451c9bcdeaa25c6602236ffce247c"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "npm:@ethereumjs/rlp@10",
+      "npm:@noble/hashes@^1.8.0",
+      "npm:@noble/secp256k1@^2.3.0",
+      "npm:ethereum-cryptography@^3.2.0",
+      "npm:node-forge@^1.3.1"
+    ]
+  }
+}
